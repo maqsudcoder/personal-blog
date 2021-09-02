@@ -25,11 +25,18 @@ a:link,
 a:visited {
 	text-decoration: none;
 	color: inherit;
-  border-bottom: 3px solid transparent;
-  transition: border 0.3s;
+	border-bottom: 3px solid transparent;
+	transition: border 0.3s;
 }
 
 a:link:hover,
 a:visited:hover {
-    border-bottom: 3px solid #01cea7;
+	border-bottom: 3px solid #01cea7;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: 6.4rem;
+	padding: 3.2rem 0;
 }
