@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%; /* 10px = 1rem */
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	font-weight: 500;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	min-height: 100vh;
+	width: 100%;
+
+	color: #fff;
+	background-color: #1b1f23;
+	border-top: 0.8rem solid #01cea7;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: inherit;
+  border-bottom: 3px solid transparent;
+  transition: border 0.3s;
+}
+
+a:link:hover,
+a:visited:hover {
+    border-bottom: 3px solid #01cea7;
+}
