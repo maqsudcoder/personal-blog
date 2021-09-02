@@ -34,9 +34,20 @@ a:visited:hover {
 	border-bottom: 3px solid #01cea7;
 }
 
+img {
+	width: 100%;
+	height: 100%;
+}
+
 .main {
 	display: flex;
 	flex-direction: column;
 	gap: 6.4rem;
 	padding: 3.2rem 0;
+}
+
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+	padding: 0 2rem;
 }
