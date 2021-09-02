@@ -1,0 +1,46 @@
+.container {
+	width: 120rem;
+	margin: 0 auto;
+}
+
+.nav {
+	background-color: #24292e;
+
+  padding: 1.2rem 2.4rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.logo {
+  font-size: 2.4rem;
+	background: linear-gradient(to right top, #83b9ff, #91ffa9);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.footer {
+  font-size: 1.4rem;
+  color: rgb(133, 133, 133);
+  background-color: #24292e;
+  font-weight: 400;
+
+  padding: 1.4rem 3.2rem;
+}
+
+/* post */
+.post {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+img {
+  width: 100%;
+}
