@@ -51,3 +51,16 @@ img {
 	margin: 0 auto;
 	padding: 0 2rem;
 }
+
+blockquote {
+	font-size: 2rem;
+	color: rgb(233, 223, 91);
+}
+
+b {
+	color: lightgreen;
+}
+
+em {
+	color: lightpink;
+}
